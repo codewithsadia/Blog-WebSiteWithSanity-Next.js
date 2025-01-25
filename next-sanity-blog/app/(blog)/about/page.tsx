@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../public/sadiaimran.png';
+import image from "../public/images/sadiaimran.png"
 import imageUrlBuilder from '@sanity/image-url';
 import Image from 'next/image';
 
