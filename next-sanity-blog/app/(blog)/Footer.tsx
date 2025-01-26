@@ -10,7 +10,7 @@ const Footer = () => {
           <h2 className="text-lg font-semibold mb-4">About Forex Blog</h2>
           <p className="text-gray-400">
             Stay updated with the latest changes in gold prices, currency exchange rates, 
-            and McDonald's price trends worldwide. We provide timely and accurate insights 
+            and McDonald &apos s price trends worldwide. We provide timely and accurate insights 
             to help you make informed decisions.
           </p>
         </div>
@@ -31,7 +31,7 @@ const Footer = () => {
             </li>
             <li>
               <a href="/mcdonald-prices" className="text-gray-400 hover:text-white">
-                McDonald's Prices
+                McDonald &apos s Prices
               </a>
             </li>
             <li>
@@ -53,7 +53,7 @@ const Footer = () => {
               🔵 USD/EUR: 1.10 <span className="text-red-400">(↓ 0.2%)</span>
             </li>
             <li className="text-gray-400">
-              🍔 McDonald's: Big Mac $5.50 <span className="text-green-400">(↑ $0.10)</span>
+              🍔 McDonald &apos s: Big Mac $5.50 <span className="text-green-400">(↑ $0.10)</span>
             </li>
           </ul>
         </div>
