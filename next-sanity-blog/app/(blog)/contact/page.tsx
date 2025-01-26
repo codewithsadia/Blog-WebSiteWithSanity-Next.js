@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaRegEnvelope } from "react-icons/fa6";
 import { BsFillTelephoneForwardFill } from "react-icons/bs";
+import Link from 'next/link';
 
 const Contact = () => {
   return (
@@ -12,7 +13,7 @@ const Contact = () => {
           <p className="text-gray-700 text-[16px] md:text-[18px] pt-2 leading-relaxed">
             Drop me a line, give me a call, or send me a message by submitting the form.
           </p>
-          <div className="flex items-center gap-2 text-gray-800" data-aos="zoom-in-up">
+          <div className="flex items-center gap-2 text-gray-800" >
             <FaRegEnvelope size={25} />
             <span>sadiaimranmalik24@gmail.com</span>
           </div>
@@ -56,8 +57,8 @@ const Contact = () => {
               placeholder="Write your message"
             ></textarea>
           </div>
-          <button className="bg-slate-200 text-black px-4 py-2 rounded-md shadow-md hover:bg-accent-dark transition">
-            Send Message
+          <button className="bg-pink-100 text-black px-4 py-2 rounded-md shadow-md hover:bg-pink-200">
+           <Link href="/commentsection"> Send Message </Link>
           </button>
         </div>
       </div>

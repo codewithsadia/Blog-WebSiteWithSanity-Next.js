@@ -37,7 +37,7 @@ const CommentSection: React.FC = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <div className="bg-blue-200 p-6 rounded-md shadow-md">
+      <div className="bg-pink-200 p-6 rounded-md shadow-md">
         {/* Comment Form */}
         <h1 className="text-3xl font-bold text-black mb-4">Comment Section</h1>
         <form onSubmit={handleAddComment} className="space-y-4">
@@ -71,14 +71,14 @@ const CommentSection: React.FC = () => {
           {/* Submit Button */}
           <button
             type="submit"
-            className="bg-blue-200 text-black border border-black px-4 py-2 rounded hover:bg-blue-500 transition">
+            className="bg-pink-200 text-black border border-black px-4 py-2 rounded hover:bg-blue-500 transition">
             Submit
           </button>
         </form>
       </div>
 
       {/* Display Comments */}
-      <div className="bg-blue-100 p-6 rounded-md shadow-md mt-6">
+      <div className="bg-pink-200 p-6 rounded-md shadow-md mt-6">
         <h2 className="text-2xl font-bold text-black mb-4">Comments</h2>
         {comments.length === 0 ? (
           <p className="text-gray-400">No comments yet. Be the first to comment!</p>
